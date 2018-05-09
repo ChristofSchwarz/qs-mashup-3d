@@ -1,3 +1,3 @@
 # qsmashup-3d-object
 
-![alttext](/ChristofSchwarz/qs-mashup-3d/blob/master/pic/3droom.gif?raw=true "Screenrec")
+![alttext](https://raw.githubusercontent.com/ChristofSchwarz/qs-mashup-3d/master/pic/3droom.gif "Screenrec")
