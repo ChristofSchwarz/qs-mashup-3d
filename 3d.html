@@ -23,14 +23,13 @@ http://css3d.ntonio.de/
 http://www.hitthebits.com/2012/06/css3-3d-transform-playground.html
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 -->
-
 <div id="mySidenav" class="sidenav">
   <a href="" class="closebtn" 
   onclick='document.getElementById("mySidenav").style.width = "0";'>&times;</a>
-  <a href="/sense/app/0e645c1b-7d93-4e54-9b01-c8e500b3feaf/sheet/a9987f9b-2ce7-4aac-b37a-516ad4e87ac8/state/analysis">Back</a>
-  <div id="QV07" style="height:200px;width:230px;margin-left:10px;background-color:#eee;"></div>
+  <script>document.write('<a href="' + decodeURIComponent(window.location.search.substring(1)) + '">Back</a>');</script>
+  <div id="QSIDE1"></div>
   <br />
-  <div id="QV08" style="height:200px;width:230px;margin-left:10px;background-color:#eee;"></div>
+  <div id="QSIDE2"></div>
 </div>
 
 <span style="font-size:20px;cursor:pointer" 
@@ -39,30 +38,22 @@ onclick='document.getElementById("mySidenav").style.width = "250px";'>&#9776;</s
 <lui-button onclick="document.getElementById('QBOTTOM').style.transform='rotateX(90deg) translate3d(0, 0, 0)'">
 Hello</lui-button>
 -->
-<center style="font-family: 'QlikView Sans', Arial; margin-top:10px; font-size:14pt;">
-		[Surfaces&nbsp;
-		<input type="radio" checked="" id="radio-right" name="select-face" >&nbsp;
-		<input type="radio" id="radio-front" name="select-face" >&nbsp;
-		<!--input type="radio" id="radio-back" name="select-face">&nbsp; --
-		<input type="radio" id="radio-left" name="select-face">&nbsp; -->
-		<input type="radio" id="radio-top" name="select-face" >&nbsp;
-		<!--input type="radio" id="radio-bottom" name="select-face"-->
-		]&nbsp;&nbsp;[3D&nbsp;
-		<input type="radio" id="radio-3d1" name="select-face"/>&nbsp;
-		<!--input type="radio" id="radio-3d2" name="select-face"/-->
-		<!--input type="radio" id="radio-3d3" name="select-face"/-->
-		]
+<center style="font-family: 'QlikView Sans', Arial; margin-top:8px; font-size:14pt;">
+	[Surfaces&nbsp;
+	<input type="radio" checked="" id="radio-left" name="select-face" >&nbsp;
+	<input type="radio" id="radio-right" name="select-face" >&nbsp;
+	<input type="radio" id="radio-bottom" name="select-face" >&nbsp;
+	&nbsp;&nbsp;3D&nbsp;
+	<input type="radio" id="radio-3d1" name="select-face"/>&nbsp;
+	]
 	<div></div>
-		<div class="scene">
-			<div class="cube">
-				<div class="cube-face  cube-face-front" id="QRIGHT"></div>
-				<!--div class="cube-face  cube-face-back" id="QV02"></div-->
-				<!--div class="cube-face  cube-face-left" id="QV03"></div-->
-				<div class="cube-face  cube-face-right" id="QLEFT"></div>
-				<div class="cube-face  cube-face-floor" id="QBOTTOM"></div>
-				<!--div class="cube-face  cube-face-bottom" id="QV06"></div-->
-			</div>
+	<div class="scene">
+		<div class="cube">
+			<div class="cube-face  cube-face-left" id="QLEFT"></div>
+			<div class="cube-face  cube-face-right" id="QRIGHT"></div>
+			<div class="cube-face  cube-face-floor" id="QBOTTOM"></div>
 		</div>
+	</div>
 
 </center>
 <!--Error Popup-->
