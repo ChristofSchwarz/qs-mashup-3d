@@ -32,7 +32,7 @@ require( ["js/qlik"], function ( qlik ) {
 
 	//get objects -- inserted here --
 	app.getObject('QLEFT','qTCxpE'); //bgBDjcJ');
-	app.getObject('QRIGHT','PzSZaU');
+	app.getObject('QRIGHT','nXgQMq'); //PzSZaU');
 	app.getObject('QBOTTOM','kpqpaT');
 	app.getObject('QSIDE1', 'dNrEW');
 	app.getObject('QSIDE2', 'QhjBZR');
