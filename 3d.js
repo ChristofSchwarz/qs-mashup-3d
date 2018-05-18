@@ -31,8 +31,8 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('0e645c1b-7d93-4e54-9b01-c8e500b3feaf', config);
 
 	//get objects -- inserted here --
-	app.getObject('QLEFT','qTCxpE'); //bgBDjcJ');
-	app.getObject('QRIGHT','nXgQMq'); //PzSZaU');
+	app.getObject('QLEFT','dLbyT'); //bgBDjcJ');
+	app.getObject('QRIGHT','bgBDjcJ'); //nXgQMq'); //PzSZaU');
 	app.getObject('QBOTTOM','kpqpaT');
 	app.getObject('QSIDE1', 'dNrEW');
 	app.getObject('QSIDE2', 'QhjBZR');
